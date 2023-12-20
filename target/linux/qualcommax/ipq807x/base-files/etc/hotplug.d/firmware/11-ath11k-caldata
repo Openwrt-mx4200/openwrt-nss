@@ -14,6 +14,8 @@ case "$FIRMWARE" in
 	edgecore,eap102|\
 	edimax,cax1800|\
 	dynalink,dl-wrx36|\
+	linksys,mx4200v1|\
+	linksys,mx4200v2|\
 	netgear,rax120v2|\
 	netgear,wax218|\
 	netgear,wax620|\

@@ -18,12 +18,14 @@ redmi,ax6) # 256MB profile
 	sysctl -w dev.nss.n2hcfg.n2h_high_water_core0=30528 >/dev/null 2>/dev/null
 	sysctl -w dev.nss.n2hcfg.n2h_wifi_pool_buf=4096 >/dev/null 2>/dev/null
 	;;
+linksys,mx4200v1|\
 edimax,cax1800|\
 xiaomi,ax3600) # 512MB profile
 	sysctl -w dev.nss.n2hcfg.extra_pbuf_core0=3100000 >/dev/null 2>/dev/null
 	sysctl -w dev.nss.n2hcfg.n2h_high_water_core0=30624 >/dev/null 2>/dev/null
 	sysctl -w dev.nss.n2hcfg.n2h_wifi_pool_buf=8192 >/dev/null 2>/dev/null
 	;;
+linksys,mx4200v2|\
 edgecore,eap102|\
 qnap,301w|\
 dynalink,dl-wrx36|\
